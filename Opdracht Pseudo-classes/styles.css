@@ -1,0 +1,78 @@
+*{
+    font-family: 'Arial', serif;
+}
+
+html {
+    margin:0;
+    padding:0;
+    background:black;
+
+}
+
+body { 
+    margin:0;
+    padding: 20px;
+    color:white;
+}
+
+nav {
+    width:100%;
+    background:darkblue;
+
+}
+
+ul {
+    margin:0;
+    padding:20px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+ul li > a {
+    padding:20px 0px 23px 0px;
+}
+
+ul li > a:hover {
+    background:lightblue;
+}
+
+.currentPage {
+    background:rgb(34, 34, 66);
+}
+
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.btn-hover:hover {
+    color:lightblue;
+    font-weight:600;
+}
+
+.btn-active:active {
+    color:red;
+    font-style:italic;
+}
+
+.btn-visited:visited {
+    color:yellow;
+    font-style:italic;
+}
+
+input[id="text"]:focus {
+    font-size: 20px;
+    color:green;
+
+}
+
+input[id="zoeken"]:focus {
+    border: 3px solid aqua;
+
+}
